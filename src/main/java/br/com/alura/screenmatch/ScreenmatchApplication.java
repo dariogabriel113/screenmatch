@@ -21,7 +21,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 		ConsumoApi consumoApi = new ConsumoApi();
 //		TODO - Incluir apiKey
-		var json = consumoApi.obterDados("https://www.omdbapi.com/?t=gilmore+girls&apikey=9b1c75f6");
+		var json = consumoApi.obterDados("https://www.omdbapi.com/?t=gilmore+girls&apikey=1111");
 		System.out.println(json);
 
 		ConverteDados conversor = new ConverteDados();
